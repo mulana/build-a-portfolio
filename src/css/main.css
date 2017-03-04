@@ -1,0 +1,66 @@
+h1, h2 {
+    color: #f77b55;
+}
+
+h3, h4 {
+	color: #33475b;
+}
+
+[class*="zocial-"]:before {
+    color: black;
+    display: inline-block;
+    font-family: 'zocial', sans-serif;
+    text-shadow: 3px 3px 3px #aaa;
+    width: 2em;
+}
+
+div#social a {
+    margin: 0 1em 0 0;
+}
+
+div#social {
+    line-height: 2em;
+}
+
+/*
+ *
+ * Top Level Navigation
+ *
+ */
+/* 
+nav {
+  box-sizing: border-box;
+}*/
+
+.nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav__list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__item {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    line-height: 24px;
+    padding: 24px;
+    text-transform: uppercase;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #33475b;
+    padding: 1.5em;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #f77b55;
+}
