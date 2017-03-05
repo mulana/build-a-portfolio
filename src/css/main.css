@@ -2,8 +2,25 @@ h1, h2 {
     color: #f77b55;
 }
 
-h3, h4 {
+h3 {
+    color: #33475b;
+    padding-bottom: 2em;
+}
+
+h4 {
 	color: #33475b;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header_logo {
+    padding-top: 1em;
+}
+
+picture#banner img {
+    width: 100vw;
 }
 
 [class*="zocial-"]:before {
@@ -20,47 +37,4 @@ div#social a {
 
 div#social {
     line-height: 2em;
-}
-
-/*
- *
- * Top Level Navigation
- *
- */
-/* 
-nav {
-  box-sizing: border-box;
-}*/
-
-.nav {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.nav__list {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.nav__item {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 24%;
-    text-align: center;
-    line-height: 24px;
-    padding: 24px;
-    text-transform: uppercase;
-}
-
-.nav a {
-    text-decoration: none;
-    color: #33475b;
-    padding: 1.5em;
-}
-
-.nav a:hover {
-    text-decoration: none;
-    color: #f77b55;
 }

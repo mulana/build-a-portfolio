@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	    <meta charset="utf-8">
-	    <meta name="description" content="Udacity Project Build a Portfolio" />
-  		<meta name="author" content="Ana Stankovic">
-		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta charset="utf-8">
+		<meta name="description" content="Udacity Project Build a Portfolio" />
+		<meta name="author" content="Ana Stankovic">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Ana Stankovic Portfolio</title>
+		<link rel="stylesheet" href="css/responsive.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
-		<!-- <link rel="stylesheet" href="css/responsive.css"> -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,300,100" rel="stylesheet">
 		<!-- icon for social -->
 		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
@@ -18,35 +18,28 @@
 		<div class="container">
 			<header>
 				<div class="row">
-		        	<div class="col-md-6">
-		          		<img class="title-logo" src="images/logo.png" alt="Udacity Logo">
-		        	</div>
-		        	<div class="col-md-6 text-right text-uppercase">
-		          		<h1 class="title-super text-thin">Ana Stankovic</h1>
-		          		<h4>Front-End Developer</h4>
-		       		</div>
-	      		</div>
+					<div class="col-md-6">
+						<img class="header_logo" src="img/logo.png" alt="Udacity Logo">
+					</div>
+					<div class="col-md-6 text-right text-uppercase">
+						<h1 class="title-super text-thin">Ana Stankovic</h1>
+						<h4>Front-End Developer</h4>
+					</div>
+				</div>
 			</header>
 			<div class="row line">
 				<hr>
 			</div>
-	     	<nav id="drawer" class="nav text-center">
-				<ul class="nav__list">
-					<li class="nav__item"><a href="#">My Portfolio</a></li>
-					<li class="nav__item"><a href="#">About me</a></li>
-					<li class="nav__item"><a href="#">Contact</a></li>
-				</ul>
-		    </nav>
-      		<div class="row">
-        		<div class="col-md-12">
-        			<picture id="banner">
-				      	<source media="(min-width: 750px)" srcset="images/backgroundImg.jpg 2x, images/backgroundImg.jpg" />
-				      	<source media="(min-width: 500px)" srcset="images/backgroundImg.jpg" />
-	          			<img src="images/backgroudImgsmall.jpg" alt="Backgground Image">
-				    </picture>
-	          		<p class="text-right"><a href='http://www.freepik.com/free-vector/web-design-background_1015293.htm'>Designed by Freepik</a></p>
-        		</div>
-	        </div>
+			<div class="row">
+				<div class="col-md-12">
+					<picture id="banner">
+						<source media="(min-width: 750px)" srcset="img/backgroundImg-large_x2.jpg 2x, img/backgroundImg-large.jpg" />
+						<source media="(min-width: 500px)" srcset="img/backgroundImg-medium.jpg" />
+						<img class="img-responsive" src="img/backgroundImg-small.jpg" alt="Background Image">
+					</picture>
+					<p class="text-right"><a href='http://www.freepik.com/free-vector/web-design-background_1015293.htm'>Designed by Freepik</a></p>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<h2>Featured Work</h2>
@@ -55,50 +48,45 @@
 			<div class="row text-center">
 				<div class="col-md-4 ">
 					<picture>
-			          	<source media="(min-width: 750px)" srcset="images/project1.png 2x, images/project1.png" />
-			          	<source media="(min-width: 500px)" srcset="images/project1.png" />
-	          			<img src="images/project1.png" alt="Project 1">
-			        </picture>
-	          		<h3>Animal Trading Cards</h3>
-	          		<p><a href="https://github.com/mulana/udacity/tree/master/P2%20Animal%20Trading%20Cards">Link to project</a></p>
-	        	</div>
-	        	<div class="col-md-4">
-	        		<picture>
-			          	<source media="(min-width: 750px)" srcset="images/project2.png 2x, images/project2.png" />
-			          	<source media="(min-width: 500px)" srcset="images/project2.png" />
-	          			<img src="images/project2.png" alt="Project 2">
-			        </picture>
-	          		<h3>Classic Arcade Game Clone</h3>
-	          		<p><a href="http://github.com/">Link to project</a></p>
-	        	</div>
-	        	<div class="col-md-4">
-	        		<picture>
-			          	<source media="(min-width: 750px)" srcset="images/project3.png 2x, images/project3.png" />
-			          	<source media="(min-width: 500px)" srcset="images/project3.png" />
-	          			<img src="images/project3.png" alt="Project 3">
-			        </picture>
-	          		<h3>Neighborhood Map</h3>
-	          		<p><a href="http://github.com/">Link to project</a></p>
-	       		 </div>
+						<source media="(min-width: 750px)" srcset="img/project1-large_x2.jpg 2x, img/project1-large.jpg" />
+						<source media="(min-width: 500px)" srcset="img/project1-medium.jpg" />
+						<img src="img/project1-small.jpg" alt="Project 1">
+					</picture>
+					<h3><a href="https://github.com/mulana/udacity/tree/master/P2%20Animal%20Trading%20Cards">Animal Trading Cards</a></h3>
+				</div>
+				<div class="col-md-4">
+					<picture>
+						<source media="(min-width: 750px)" srcset="img/project2-large_x2.jpg 2x, img/project2-large.jpg" />
+						<source media="(min-width: 500px)" srcset="img/project2-medium.jpg" />
+						<img src="img/project2-small.jpg" alt="Project 2">
+					</picture>
+					<h3><a href="http://github.com/">Classic Arcade Game Clone</a></h3>
+				</div>
+				<div class="col-md-4">
+					<picture>
+						<source media="(min-width: 750px)" srcset="img/project3-large_x2.jpg 2x, img/project3-large.jpg" />
+						<source media="(min-width: 500px)" srcset="img/project3-medium.jpg" />
+						<img src="img/project3-small.jpg" alt="Project 3">
+					</picture>
+					<h3><a href="http://github.com/">Neighborhood Map</a></h3>
+				</div>
 			</div>
 			<div class="row text-center">
 				<div class="col-md-6">
 					<picture>
-			          <source media="(min-width: 750px)" srcset="images/project4.png 2x, images/project4.png" />
-			          <source media="(min-width: 500px)" srcset="images/project4.png" />
-			          <img src="images/project4.png" alt="Project 4">
-			        </picture>
-					<h3>Responsive</h3>
-					<p><a href="http://github.com">Link to project</a></p>
+						<source media="(min-width: 750px)" srcset="img/project4-large_x2.jpg 2x, img/project4-large.jpg" />
+						<source media="(min-width: 500px)" srcset="img/project4-medium.jpg" />
+			          <img src="img/project4-small.jpg" alt="Project 4">
+					</picture>
+					<h3><a href="http://github.com">Responsive</a></h3>
 				</div>
 				<div class="col-md-6">
 					<picture>
-			          	<source media="(min-width: 750px)" srcset="images/project5.png 2x, images/project5.png" />
-			          	<source media="(min-width: 500px)" srcset="images/project5.png" />
-			          	<img src="images/project5.png" alt="Project 5">
-			        </picture>
-					<h3>JavaScript</h3>
-					<p><a href="http://github.com">Link to project</a></p>
+						<source media="(min-width: 750px)" srcset="img/project5-large_x2.jpg 2x, img/project5-large.jpg" />
+						<source media="(min-width: 500px)" srcset="img/project5-medium.jpg" />
+						<img src="img/project5-small.jpg" alt="Project 5">
+					</picture>
+					<h3><a href="http://github.com">JavaScript</a></h3>
 				</div>
 			</div>
 			<footer class="text-center">
@@ -106,7 +94,6 @@
 					<a href="https://github.com/mulana" class="zocial-github">GitHub</a>
 					<a href="https://www.linkedin.com/in/mulana/" class="zocial-linkedin">LinkedIn</a>
 				</div>
-				<!-- <a href="https://github.com/mulana" title="View source for this page on GitHub">View source on GitHub</a> -->
 				<p>&copy; 2017 Ana Stankovic</p>
 			</footer>
 		</div>
