@@ -1,4 +1,5 @@
-h1, h2 {
+h1,
+h2 {
     color: #f77b55;
 }
 
@@ -13,6 +14,12 @@ h4 {
 
 img {
     max-width: 100%;
+}
+
+.header {
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    border-bottom-style: groove;
 }
 
 .header_logo {
